@@ -1,5 +1,4 @@
 # SitemapXML v4 
-==================
 Author:  Andrew Berezin 
 
 Modified for Zen-Cart Version 1.5.7 by: davewest (CowboyGeek.com)
@@ -21,6 +20,7 @@ If you truly have an issue, ask, There's a donate button on my web site, coffee 
 Still reading up on the standard format of the xml files to see what else can be added.  If you know of other tags we can add, speak up.
 
 Current XML setup for everything is
+```xml
 
   <url>
   <loc>https:// URL /index.php?main_page=product_info&amp;products_id=72</loc>
@@ -31,8 +31,10 @@ Current XML setup for everything is
    <image:loc>https:// URL /images/large/maps/AZ_TNM_Quads_LRG.jpg</image:loc>
   </image:image>
   </url>
-  
+
+```
 Looking at adding ROR setup which for products is
+```xml
 
  <Resource>
  <type>Product</type>
@@ -46,6 +48,8 @@ Looking at adding ROR setup which for products is
  <currency>USD</currency>
  <available>yes</available>
  </Resource>
+
+```
  
  With a grater number of types Classified Ad, Auctions, maps would be nice..
  
